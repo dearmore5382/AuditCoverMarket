@@ -14,3 +14,8 @@ tests/fixtures/oz-*.html
 tests/fixtures/oz-*.article.txt
 tests/fixtures/oz-*.sections.json
 *.tar.gz
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example

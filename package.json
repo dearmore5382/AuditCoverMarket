@@ -9,7 +9,9 @@
     "test": "vitest run",
     "verify": "node scripts/verify.mjs",
     "sources": "python scripts/prepare_resources.py",
-    "live": "node scripts/live.mjs"
+    "live": "node scripts/live.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "dependencies": {
     "genlayer-js": "1.1.8",
@@ -17,12 +19,14 @@
     "react-dom": "19.2.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.64.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "4.7.0",
     "prettier": "3.6.2",
     "typescript": "5.9.3",
     "vite": "6.4.4",
-    "vitest": "4.1.11"
+    "vitest": "4.1.11",
+    "wrangler": "^4.151.0"
   }
 }

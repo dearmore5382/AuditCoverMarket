@@ -1,0 +1,69 @@
+[
+  {
+    "resource_id": "oz-bravo",
+    "purpose": "positive and cross-object controls",
+    "authoritative_owner": "OpenZeppelin Security",
+    "publisher_controller": "OpenZeppelin, separate from sponsor and curators",
+    "positive_state_beneficiary": "winning curator",
+    "can_beneficiary_manufacture_fact_alone": false,
+    "canonical_origin": "https://www.openzeppelin.com",
+    "canonical_url_or_api": "https://www.openzeppelin.com/news/compound-governor-bravo-audit",
+    "repository_and_object_id": "Compound Governor Bravo Audit",
+    "revision_or_commit": "f86c247f6f81e14f8e0fd78402653a0b8371266a",
+    "expected_content_type": "text/html",
+    "expected_digest_algorithm": "SHA-256 over contract-normalized article UTF-8",
+    "expected_digest": "f1d0a6715b7b1bcbd43197307469743079c0e7f2c0f65cdeb933ed58aaeb40e3",
+    "raw_body_sha256": "a0431bbde08ee5d15df6cff97933ddecd1dae64632530e032409aefc13e6ee23",
+    "mutable_or_immutable": "mutable publisher page; pinned normalized-content commitment",
+    "availability_checked_at": "2026-10-15T03:18:29.594184+00:00",
+    "repeated_fetch_stable": true,
+    "finding_ids": [
+      "M01",
+      "M02",
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05"
+    ],
+    "what_this_source_cannot_prove": "Current deployed safety, successful fixes, runtime behavior, or curator authorship of findings",
+    "expected_deterministic_facts": [
+      "exact compiled source ID and subject",
+      "article digest match",
+      "unique finding boundary"
+    ],
+    "expected_contract_result": "Only genuine semantic coverage may enter minimum-cost clearing; other findings map to empty coverage"
+  },
+  {
+    "resource_id": "oz-compound",
+    "purpose": "positive and cross-object controls",
+    "authoritative_owner": "OpenZeppelin Security",
+    "publisher_controller": "OpenZeppelin, separate from sponsor and curators",
+    "positive_state_beneficiary": "winning curator",
+    "can_beneficiary_manufacture_fact_alone": false,
+    "canonical_origin": "https://www.openzeppelin.com",
+    "canonical_url_or_api": "https://www.openzeppelin.com/news/compound-comprehensive-protocol-audit",
+    "repository_and_object_id": "Compound Comprehensive Protocol Audit",
+    "revision_or_commit": "report article snapshot; no complete Git snapshot claim",
+    "expected_content_type": "text/html",
+    "expected_digest_algorithm": "SHA-256 over contract-normalized article UTF-8",
+    "expected_digest": "aa8a4e247c7806b7e691a232bb33e36c75067cc8c8c046ac1ae51d3536f0a4e3",
+    "raw_body_sha256": "c8013402f86588f68043ff854f2d9aa137ecf58991c8f046cd2bc5275b5889dc",
+    "mutable_or_immutable": "mutable publisher page; pinned normalized-content commitment",
+    "availability_checked_at": "2026-10-15T03:19:57.295495+00:00",
+    "repeated_fetch_stable": true,
+    "finding_ids": [],
+    "what_this_source_cannot_prove": "Current deployed safety, successful fixes, runtime behavior, or curator authorship of findings",
+    "expected_deterministic_facts": [
+      "exact compiled source ID and subject",
+      "article digest match",
+      "unique finding boundary"
+    ],
+    "expected_contract_result": "Only genuine semantic coverage may enter minimum-cost clearing; other findings map to empty coverage"
+  }
+]

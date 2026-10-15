@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+artifacts/
+.venv/
+*.zip
+verification/local-source-cache.json
+verification/source-cache/
+tests/fixtures/oz-*.html
+tests/fixtures/oz-*.article.txt
+tests/fixtures/oz-*.sections.json
+*.tar.gz

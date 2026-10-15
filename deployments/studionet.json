@@ -9,5 +9,11 @@
   "deployer_role": "deployment only; no constructor-assigned operational privileges",
   "source_sha256": "a6c0ac9aecfd706489027db0455f2baee7687dea7bca2d5d8049b0efb3db9fef",
   "source_verified_at": "2026-10-15T03:47:32Z",
-  "live_evidence": null
+  "live_evidence": {
+    "report": "verification/E2E_LIVE_REPORT.md",
+    "happy_round": 0,
+    "guards_round": 3,
+    "recovery_round": 4,
+    "verified_at": "2026-10-15T05:11:01Z"
+  }
 }

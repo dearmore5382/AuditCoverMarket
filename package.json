@@ -10,8 +10,8 @@
     "verify": "node scripts/verify.mjs",
     "sources": "python scripts/prepare_resources.py",
     "live": "node scripts/live.mjs",
-    "deploy": "npm run build && wrangler deploy",
-    "preview": "npm run build && wrangler dev"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name auditcover-market --branch main",
+    "preview": "npm run build && wrangler pages dev dist"
   },
   "dependencies": {
     "genlayer-js": "1.1.8",
@@ -19,7 +19,6 @@
     "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.64.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "4.7.0",

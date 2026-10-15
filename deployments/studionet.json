@@ -1,11 +1,13 @@
 {
   "network": "studionet",
-  "status": "AWAITING_USER_DEPLOYMENT",
-  "contract_address": null,
+  "status": "DEPLOYED_SOURCE_VERIFIED",
+  "contract_address": "0xC5ccC356d222b5f0cD7540c993e10aB3895391B2",
   "deployment_transaction": null,
   "constructor_arguments": [],
   "source_file": "contracts/AuditCoverMarket.py",
   "runtime": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
   "deployer_role": "deployment only; no constructor-assigned operational privileges",
+  "source_sha256": "a6c0ac9aecfd706489027db0455f2baee7687dea7bca2d5d8049b0efb3db9fef",
+  "source_verified_at": "2026-10-15T03:47:32Z",
   "live_evidence": null
 }

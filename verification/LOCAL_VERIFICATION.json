@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-15T03:36:51.884Z",
+  "date": "2026-10-15T03:49:32.256Z",
   "node": "v26.2.0",
   "source_sha256": "a6c0ac9aecfd706489027db0455f2baee7687dea7bca2d5d8049b0efb3db9fef",
   "steps": [
     {
-      "command": "python -m pytest tests -q",
+      "command": "python.exe -m pytest tests -q",
       "exit_code": 0,
-      "stdout": "............................                                             [100%]\r\n28 passed in 8.36s\r\n",
+      "stdout": "............................                                             [100%]\r\n28 passed in 9.42s\r\n",
       "stderr": "WARNING: File `gltest.config.yaml` not found in the current directory, using default config, create a `gltest.config.yaml` file to manage multiple networks\r\nINFO: Clearing artifacts directory: artifacts\r\nINFO: Using the following configuration:\r\nINFO:   RPC URL: http://127.0.0.1:4000/api\r\nINFO:   Selected Network: localnet\r\nINFO:   Available networks: ['localnet', 'studionet', 'testnet_asimov', 'testnet_bradbury']\r\nINFO:   Selected chain type: localnet\r\nINFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury\r\nINFO:   Contracts directory: contracts\r\nINFO:   Artifacts directory: artifacts\r\nINFO:   Environment: .env\r\nINFO:   Default wait interval: 3000 ms\r\nINFO:   Default wait retries: 50\r\nINFO:   Leader only mode: False\r\n"
     },
     {
-      "command": "genvm-lint check contracts/AuditCoverMarket.py",
+      "command": "genvm-lint.exe check contracts/AuditCoverMarket.py",
       "exit_code": 0,
       "stdout": "\r\n✓ Lint passed (3 checks)\r\n✓ Validation passed\r\n  Contract: AuditCoverMarket\r\n  Methods: 10 (2 view, 8 write)\r\n  ℹ py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes.\r\n",
       "stderr": ""
     },
     {
-      "command": "npm test",
+      "command": "cmd.exe /d /s /c npm test",
       "exit_code": 0,
-      "stdout": "\n> auditcover-market@0.1.0 test\n> vitest run\n\n\n RUN  v4.1.11 G:/Genlayer 3/AuditCoverMarket\n\n\n Test Files  1 passed (1)\n      Tests  8 passed (8)\n   Start at  10:37:07\n   Duration  381ms (transform 69ms, setup 0ms, import 96ms, tests 10ms, environment 0ms)\n\n",
+      "stdout": "\n> auditcover-market@0.1.0 test\n> vitest run\n\n\n RUN  v4.1.11 G:/Genlayer 3/AuditCoverMarket\n\n\n Test Files  1 passed (1)\n      Tests  8 passed (8)\n   Start at  10:49:48\n   Duration  415ms (transform 77ms, setup 0ms, import 123ms, tests 11ms, environment 0ms)\n\n",
       "stderr": ""
     },
     {
-      "command": "npm run build",
+      "command": "cmd.exe /d /s /c npm run build",
       "exit_code": 0,
-      "stdout": "\n> auditcover-market@0.1.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.4 building for production...\ntransforming...\n✓ 483 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.61 kB │ gzip:   0.38 kB\ndist/assets/logo-HUiGnJ26.png   1,056.29 kB\ndist/assets/index-CBlzJeLf.css     15.06 kB │ gzip:   4.18 kB\ndist/assets/ccip-Dakv0QDK.js        3.04 kB │ gzip:   1.39 kB\ndist/assets/index-B3NS7ztI.js     760.28 kB │ gzip: 187.04 kB\n✓ built in 4.39s\n",
+      "stdout": "\n> auditcover-market@0.1.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.4 building for production...\ntransforming...\n✓ 483 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.61 kB │ gzip:   0.37 kB\ndist/assets/logo-HUiGnJ26.png   1,056.29 kB\ndist/assets/index-CBlzJeLf.css     15.06 kB │ gzip:   4.18 kB\ndist/assets/ccip-rxCiujiI.js        3.04 kB │ gzip:   1.39 kB\ndist/assets/index-BDJd3q91.js     760.33 kB │ gzip: 187.09 kB\n✓ built in 5.07s\n",
       "stderr": ""
     }
   ]

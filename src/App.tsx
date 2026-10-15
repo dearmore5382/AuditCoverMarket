@@ -50,6 +50,7 @@ type Reveal = {
 const shorten = (x: string) =>
   x ? `${x.slice(0, 6)}…${x.slice(-4)}` : "Not connected";
 const explorer = "https://explorer-studio.genlayer.com";
+const deployedAddress = "0xC5ccC356d222b5f0cD7540c993e10aB3895391B2";
 const reader = createClient({ chain: studionet });
 const rpc = async (method: string, params: unknown[]) => {
   const response = await fetch("https://studio.genlayer.com/api", {
@@ -80,7 +81,7 @@ export default function App() {
     () =>
       localStorage.getItem("auditcover-address") ||
       import.meta.env.VITE_CONTRACT_ADDRESS ||
-      "",
+      deployedAddress,
   );
   const [wallet, setWallet] = useState("");
   const [tab, setTab] = useState<"board" | "create" | "sources" | "activity">(
